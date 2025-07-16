@@ -11,6 +11,7 @@ const getDefaultCart = () => {
 }
 
 const ShopContextProvider = (props) => {
+    const url = "https://full-stack-ecommerce-y6sw.onrender.com"
     const [all_product, setAll_Product] = useState([]);
     const [cartItems,setCartItems] = useState(getDefaultCart());
 
